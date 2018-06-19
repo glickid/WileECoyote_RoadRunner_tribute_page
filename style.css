@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: biege;
+}
+  
+.container {
+    background-color: rgb(17, 222, 236);
+    /* position: relative;
+    top: 100px; */
+    padding-top: 100px;
+    margin: auto;
+    margin-top: 75px;
+    max-width: 1000px;
+    /* height: 5190px; */
+}
+
+.container > row {
+    margin: auto;
+    max-width: 950px;
+    display: table-cell;
+}
+
+.italic {
+    font-style: italic;
+}
+.text-center {
+    text-align: center;
+}
+
+.Pic-Header > img {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    display: table-cell;
+    padding-bottom: 20px;
+    width: 100%;
+    /* height: auto; */
+}
+
+.Pic-Header .caption { 
+    font-size: 80%;
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center; 
+}
+
+.main-text {
+    /* position: relative;
+    top: 30px; */
+    text-align: left;
+    margin-top: 30px;
+}
+
+.main-text::first-letter { 
+    font-size: 150%;
+    color: rgb(134, 7, 77);
+}
+
+.main-text::first-line {
+    border-left-width: 30px;
+}
+
+.list-table {
+    /* position: relative;
+    top: 50px; */
+    margin: auto;
+    padding: 30px;
+}
+
+table, th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px dotted white;
+}
+
+.quote {
+    text-align: center;
+    margin: 20px 250px;
+}
+
+.chorus {
+   text-align: left; 
+}
+
+.quote span {
+    display: table;
+}
+  
+.quote cite {
+    color: white;
+    font-size: 13px;
+    font-display: inherit;
+    background-color: blueviolet;
+}
+.footer1 {
+    /* position: relative;
+    top: 100px; */
+    margin-bottom: 100px;
+}
+
+/* footer1 cite {
+    position: relative;
+    top: 100px;
+}
+
+.footer1 h3 {
+    position: relative;
+    top: 100px;
+} */
+
+.footer2 {
+    position: relative;
+    bottom: 0;
+}
